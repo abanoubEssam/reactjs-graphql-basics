@@ -37,8 +37,17 @@
     color: black;
 }
 
-.mainNavigationItems a:hover,
+/* .mainNavigationItems a[class='active'] {
+    color: red;
+} */
+
+.mainNavigationItems a:hover, 
 .mainNavigationItems a:active,
-.mainNavigationItems a.active {
+.mainNavigationItems a[class='active']  {
     color: white;
 }
+
+/* 
+[class='active'] {
+    color: red !important;
+} */
